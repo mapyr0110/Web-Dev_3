@@ -1,0 +1,12 @@
+$kind: http-request
+url: http://127.0.0.1:8000/api/categories/1/
+method: PUT
+headers:
+  Content-Type: application/json
+body:
+  type: text
+  content: |-
+    {
+        "name": "Updated Category"
+    }
+order: 5000
